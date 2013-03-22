@@ -1,0 +1,30 @@
+kvsuck is a sucky Key Value Store and crappy ReST API.
+It uses sqlite as the backend database.
+
+
+DO NOT USE THIS CODE. EVER. SERIOUSLY, DON'T.
+
+
+ReST API:
+
+  Post a value:
+    curl -X POST http://localhost:8080/key?value=val
+
+  Get a value:
+    curl http://localhost:8080/key
+
+  Update a value:
+    curl -X PUT http://localhost:8080/key?value=val
+
+  Delete a value
+    curl -X DELETE http://localhost:8080/key
+
+Database:
+  Stored as kvsuck.db in the same working directory as where
+  you launched kvsuck.py
+
+
+I TOLD YOU NOT TO USE IT BRO.
+
+- wcbubel
+
